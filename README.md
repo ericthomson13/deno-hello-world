@@ -20,7 +20,7 @@ Note:
 The ``` --allow-net ``` flag is important and if not used will give you denied permissions to use
 the network error.   are one of the key differences with Deno.
 
-To stop running any of the files that setup server press control + C on mac to exit.
+To stop running any of the files that setup a server press control + C on mac to exit.
 
 ### What's Different About Deno?
 Deno supports Typescript out of the box.
