@@ -1,4 +1,4 @@
-import { createBeer } from "../services/beerService.js";
+import { createBeer } from "../services/beerServices.js";
 
 export default async ({ request, response }) => {
   if (!request.hasBody) {
