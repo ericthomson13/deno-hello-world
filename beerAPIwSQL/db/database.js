@@ -17,4 +17,6 @@ class Database {
 
     await this.client.connect();
   }
-}
+};
+
+export default new Database().client;
