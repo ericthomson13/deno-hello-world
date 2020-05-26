@@ -38,5 +38,13 @@ To stop running any of the files that setup a server press control + C on mac to
 - [Permissions](https://deno.land/manual/getting_started/permissions) allow for a concept of least privledge similar to setting up IAM roles for AWS user accounts.  This allows for easier built in security compared to Node systems which can access anything the user can access.
 - A long term vision for Deno is the possibility of compiling into a single executable with no external dependencies.  This is not present in the current version to my knowledge.
 
+### Subdirectories
+1. Dog API
+  - This app explores routing using Oak, which is similar to Express and Koa in Node
+  - There is no DB layer to this CRUD application.
+2. Beer API
+  - This app explores further into using Oak.
+  - This app adds a PostgreSQL database and modularization.
+
 ### Moving Forward
 I built this repository as an exploration of Deno, starting just a few days after 1.0 release. Over time I hope to continue building my understanding of Deno and will continue to flush out more examples in this repository.

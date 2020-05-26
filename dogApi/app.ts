@@ -5,7 +5,6 @@
   deno rn --allow-net --allow-env ./dogapi/app.ts
 */
 
-
 import { Application, Router } from "https://deno.land/x/oak/mod.ts";
 
 // set up environment variables and port
@@ -78,7 +77,7 @@ const updateDog = async ({
 }) => {
   const temp = dogs.filter((dog) => dog.name === params.name);
   const body = await request.body();
-  const { age }: { age: number }= body.value;
+  const { age }: { age: number } = body.value;
 
   if (temp.length) {
     temp[0].age = age;
