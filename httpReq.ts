@@ -1,5 +1,6 @@
 /*
 This is a basic HTTP request using a deno package
+This will log out an HTML file to the terminal
 
 Run Script:
 deno run --allow-net=example.com https://deno.land/std/examples/curl.ts https://example.com
